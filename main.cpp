@@ -6,7 +6,7 @@ using std::endl;
 
 int main() {
     cout << "Creating HashTable... ";
-    HashTable table = HashTable(17);
+    HashTable table = HashTable(17);  // yes I realize this is a horrible choice. I'll work on this tomorrrow.
     cout << "Done." << endl;
 
     cout << "We will insert values from 1 through 200 to illustrate collisions." << endl;
