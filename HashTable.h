@@ -32,7 +32,7 @@ public:
     explicit HashTable(int hashValue);
 
     /// @param key The key to search for.
-    /// @returns A Tuple struct containing the value, the number of iterations, and a bool indicating if the search was successful.
+    /// @returns A Tuple struct containing the number of iterations and a bool indicating if the search was successful.
     [[nodiscard]] tuple<int, bool> search(int key);
 
     /// Inserts a key/value pair into the HashTable.

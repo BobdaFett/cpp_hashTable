@@ -64,7 +64,7 @@ tuple<int, bool> HashTable::search(int key) {
         iterations++;
         if (temp->key == key) {
             cout << "Found in " << iterations << " iterations." << endl;
-            return {temp->value, true};
+            return {iterations, true};
         }
         temp = temp->next;
     }
