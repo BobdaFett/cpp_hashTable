@@ -23,6 +23,7 @@ int main() {
     printf("Done.\n");
 
     #pragma region Print searching information
+    // There was definitely an easier way of going about this.
     printf("Searching for various values in the lists.\n");
     vector<int> t3_iter, t10_iter, t15_iter;
     printf("Searching for %i in table3... ", 2);
